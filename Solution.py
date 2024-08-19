@@ -2,6 +2,8 @@ import re
 from datetime import datetime
 
 
+# Added a comment
+
 # TODO: Move all regex expression in a class
 # Regex Pattern
 # Vehicle ID: e.g., V001
