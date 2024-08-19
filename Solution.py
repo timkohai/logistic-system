@@ -24,42 +24,6 @@ PHONE_FORMAT = r'^04\d{8}$'
 # Email: customer@email.com
 EMAIL_FORMAT = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 
-
-class Employee:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def speak(self):
-        print("Hi I am", self.name)
-
-
-class Engineer(Employee):
-    def last_name(self):
-       print("Test") 
-
-
-# Instance of Employee
-david = Employee("David", 30)
-tshering = Employee("Tshering", 28)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Vehicle:
     def __init__(self, vehicle_id, vehicle_type, vehicle_capacity):
         self.vehicle_id = vehicle_id
